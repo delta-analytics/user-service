@@ -8,7 +8,7 @@
         <class>deltaanalytics.user.entity.User</class>
         <properties>
             <!-- Configuring JDBC properties -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:~/bruker-data"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:~/user-data"/>
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
 
             <!-- Hibernate properties -->

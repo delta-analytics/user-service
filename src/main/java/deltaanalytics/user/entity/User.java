@@ -10,6 +10,7 @@ public class User implements UserDataEntity {
     private String lastname;
     private String account;
     private String password;
+    private boolean enabled;
 
     private LocalDateTime createdAt;
 
@@ -62,6 +63,14 @@ public class User implements UserDataEntity {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 
     @PrePersist
